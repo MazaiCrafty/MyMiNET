@@ -19,13 +19,13 @@ namespace ExamplePlugin
         }
 
         [Command(Command = "hello", Permission = "User")]
-        public void hello(Player sender)
+        public void Hello(Player sender)
         {
             sender.SendMessage("Welcome!!", MessageType.Raw);
         }
 
         [Command(Command = "good", Permission = "OP")]
-        public void good(Player sender)
+        public void Good(Player sender)
         {
             sender.SendMessage("Good!!", MessageType.Raw);
         }
